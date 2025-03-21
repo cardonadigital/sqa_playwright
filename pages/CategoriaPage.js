@@ -18,6 +18,11 @@ class CategoriaPage {
         await this.page.locator(xpath1).click();  // Hacer clic en el primer elemento
     }
 
+    async eliminarProducto1() {
+        const xpath1 = '(//a[contains(@class, "remove")])[last()]';
+        await this.page.locator(xpath1).click();
+    }
+
 
 
     // Método para hacer clic en el segundo elemento por XPath

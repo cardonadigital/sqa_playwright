@@ -8,6 +8,11 @@ class HomePage {
         await this.page.locator('//*[@id="menu-item-2806"]/a').click();  // Seleccionar y hacer clic en el botón con el XPath
     }
 
+    // Método para hacer clic en el botón "Amor" usando el XPath
+    async clickCategoriaCumple() {
+        await this.page.locator('//*[@id="primary-menu"]/li[3]/a').click();  // Seleccionar y hacer clic en el botón con el XPath
+    }
+
 
     
     

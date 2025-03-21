@@ -86,6 +86,8 @@ test('User can log in successfully', async ({ page }) => {
 
 ## 📌 Execution command
 - **Execute specific file**: `npx playwright test tests/escenario1.js  --headed`
+- **Execute specific file**: `npx playwright test tests/escenario2.js  --headed`
+- **Execute specific file**: `npx playwright test  --headed`
 
 ## 📝 Notes
 - Ensure Playwright browsers are installed:

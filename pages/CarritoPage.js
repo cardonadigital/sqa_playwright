@@ -22,6 +22,11 @@ class CarritoPage {
         const xpath1 = '//a[contains(text(), "Home")]';
         await this.page.locator(xpath1).click();  // Hacer clic en el primer elemento
     }
+
+    async eliminarProducto1() {
+        const xpath1 = '(//a[contains(@class, "remove")])[last()]';
+        await this.page.locator(xpath1).click();
+    }
 }
 
 module.exports = CarritoPage;
